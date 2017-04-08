@@ -30,17 +30,18 @@ section {
     display: inline-block;
     float: left;
     background-color: #ebebeb;
-    padding: 10px;
+    padding: 30px 10px 10px 10px;
+  
     width: 496px;
-   
-    }
 
+    }
 article {
     display: block;
     color: #ebebeb;
     background-color: #777;
     padding: 10px;
-    margin: 0px;
+    margin-top: 40px;
+
 }
 
 p,
@@ -55,8 +56,9 @@ aside {
     display: inline-block;
     float: right;
     background-color: #ebebeb;
-    height: 266px;
+    height: 296px;
     width: 433px;
+    padding-top: 30px;
    ;
 }
 
@@ -68,7 +70,7 @@ footer {
     display: block;
     background-color: #ebebeb;
     padding: 40px;
-    margin-top: 285px;
+    margin-top: 360px;
     margin-bottom: 10px;
    
 }

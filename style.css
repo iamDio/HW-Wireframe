@@ -1,6 +1,6 @@
 body {
     display: block;
-    overflow: auto;
+    /* overflow: auto; */
     width: 960px;
     background-color: #777;
     font-size: 18px;
@@ -31,17 +31,16 @@ section {
     float: left;
     background-color: #ebebeb;
     padding: 30px 10px 10px 10px;
-  
-    width: 496px;
-
+    width: 30em/* 496px */;
+    overflow: auto;
     }
+
 article {
     display: block;
     color: #ebebeb;
     background-color: #777;
     padding: 10px;
     margin-top: 40px;
-
 }
 
 p,
@@ -55,24 +54,18 @@ h3 {
 aside {
     display: inline-block;
     float: right;
-    background-color: #ebebeb;
-    height: 296px;
-    width: 433px;
+    background-color: #ebebeb; 
+    height: 16.4em;
+    width: 22em;
     padding-top: 30px;
-   ;
-}
-
-.clear {
-    clear: both;
 }
 
 footer {
+    clear: both;
     display: block;
     background-color: #ebebeb;
     padding: 40px;
-    margin-top: 360px;
-    margin-bottom: 10px;
-   
+    margin-top: 360px; 
 }
 
 
